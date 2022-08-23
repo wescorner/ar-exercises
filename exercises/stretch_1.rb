@@ -10,6 +10,6 @@ require_relative './exercise_7'
 puts "Stretch Exercise 1"
 puts "----------"
 
-employee = @store6.employees.create(first_name: "Password2", last_name: "Protected2", hourly_rate: 69)
+employee = @store6.employees.create(first_name: "Password", last_name: "Protected", hourly_rate: 69)
 
 puts employee.password

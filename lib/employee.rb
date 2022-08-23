@@ -9,6 +9,6 @@ class Employee < ActiveRecord::Base
 
   private
   def generate_password 
-    password = (0..8).map { (65 + rand(26)).chr }.join
+    self.password = (0..8).map { (65 + rand(26)).chr }.join
   end
 end
